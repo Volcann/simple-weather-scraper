@@ -16,4 +16,4 @@ def scrape_weather_detailed(city):
     except Exception as e:
         return {"error": str(e)}
 
-print(scrape_weather_detailed("Lahore"))
+print(scrape_weather_detailed("New York"))
